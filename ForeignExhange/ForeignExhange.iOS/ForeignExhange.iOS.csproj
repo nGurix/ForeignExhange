@@ -128,4 +128,7 @@
       <Name>ForeignExhange</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\if_switch.png" />
+  </ItemGroup>
 </Project>

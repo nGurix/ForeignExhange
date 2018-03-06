@@ -1,19 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
+﻿
+using ForeignExhange.Views;
 using Xamarin.Forms;
 
 namespace ForeignExhange
 {
-	public partial class App : Application
+    public partial class App : Application
 	{
 		public App ()
 		{
 			InitializeComponent();
 
-			MainPage = new ForeignExhange.MainView();
+            MainPage = new MainView();
 		}
 
 		protected override void OnStart ()
